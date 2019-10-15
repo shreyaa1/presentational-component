@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  max-width: 670px;
+  padding: 8px 22px 8px 22px;
+  border-radius: 100px;
+  margin-bottom: 40px;
+  input {
+    border: none;
+    outline: none;
+    width: calc(100% - 24px);
+  }
+}
