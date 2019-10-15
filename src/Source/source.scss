@@ -1,0 +1,18 @@
+.wrapper-source {
+  flex-direction: column;
+  height: 310px;
+
+  box-shadow: $boxShadow1;
+  .heading {
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+
+  .followers {
+    display: flex;
+    flex-grow: 1;
+    &__text {
+      margin-left: 10px;
+    }
+  }
+}
