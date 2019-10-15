@@ -1,0 +1,16 @@
+.setting-btn {
+  position: relative;
+  cursor: pointer;
+}
+.list {
+  padding: 14px 16px 30px 24px;
+  border-radius: 15px;
+  box-shadow: $boxShadow1;
+  width: 200px;
+  position: absolute;
+  right: -20px;
+  top: 50px;
+  li {
+    margin-bottom: 10px;
+  }
+}

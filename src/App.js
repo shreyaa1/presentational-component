@@ -3,15 +3,13 @@ import "../src/stylesheets/styles.scss";
 import { StoryCard } from "./Storycard/index";
 import { SuggestedSource } from "./Source";
 import { Button } from "./Button";
-import { Setting } from "./images/setting";
+import { Banner } from "./Banner";
 import { Search } from "./Search";
 
 function App() {
   return (
     <div className="page-wrapper">
-      <div className="banner boxShadow">
-        <span>AI News</span> <Setting />
-      </div>
+      <Banner />
       <Search />
       <div className="btn-wrapper">
         <Button name="Today" bgColor="#333" />
