@@ -1,33 +1,16 @@
 import React from "react";
+import { Home } from "./Home";
+import { Header } from "./Header";
+import { Sidebar } from "./Sidebar";
 import "../src/stylesheets/styles.scss";
-import { StoryCard } from "./Storycard/index";
-import { SuggestedSource } from "./Source";
-import { Button } from "./Button";
-import { Banner } from "./Banner";
-import { Search } from "./Search";
 
-function App() {
+function App(props) {
   return (
-    <div className="page-wrapper">
-      <Banner />
-      <Search />
-      <div className="btn-wrapper">
-        <Button name="Today" bgColor="#333" />
-        <Button name="Yesterday" />
-        <Button name="All" />
-        <Button name="Popular" />
-        <Button name="Trending" />
-        <Button name="Unread" />
-      </div>
-      <div className="app">
-        <div className="card-wrapper">
-          <StoryCard />
-          <StoryCard />
-          <div className="end-of-feed">End of Feed</div>
-          <div className="boxShadow text">MARK All AS READ</div>
-        </div>
-
-        <SuggestedSource />
+    <div className="layout">
+      <Header />
+      <div className="layout__wrapper">
+        <Sidebar />
+        <Home />
       </div>
     </div>
   );
