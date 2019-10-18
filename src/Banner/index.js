@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Setting } from "../images/setting";
 
 export const Banner = () => {
-  const [isSettingOpen, handleSettingPanel] = useState(false);
+  const [isSettingOpen, handleSettingPanel] = useState(true);
 
   const openSettingPanel = () => {
     handleSettingPanel(!isSettingOpen);

@@ -1,9 +1,16 @@
 import React from "react";
 
-export const Button = ({ name = "button", bgColor = "#333" }) => {
+export const Button = ({
+  name = "button",
+  bgColor = "#333",
+  color = "#fff"
+}) => {
   return (
-    <div className="button boxShadow" style={{ backgroundColor: bgColor }}>
+    <button
+      className="button boxShadow"
+      style={{ backgroundColor: bgColor, color: color }}
+    >
       {name}
-    </div>
+    </button>
   );
 };

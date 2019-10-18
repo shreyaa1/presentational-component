@@ -1,11 +1,11 @@
 import React from "react";
 import { SearchIcon } from "../images/search-icon";
 
-export const Search = () => {
+export const Search = ({ placeholder = "" }) => {
   return (
     <div>
       <form className="form  boxShadow">
-        <input placeholder="Search for Companies, Investors, Keywords" />
+        <input placeholder={placeholder} />
         <SearchIcon />
       </form>
     </div>

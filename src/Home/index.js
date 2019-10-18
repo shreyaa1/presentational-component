@@ -9,14 +9,16 @@ export const Home = () => {
   return (
     <div className="page-wrapper">
       <Banner />
-      <Search />
+      <Search placeholder="Search for Companies, Investors, Keywords" />
       <div className="btn-wrapper">
         <Button name="Today" bgColor="#333" />
         <Button name="Yesterday" />
         <Button name="All" />
         <Button name="Popular" />
         <Button name="Trending" />
-        <Button name="Unread" />
+        
+          <Button name="Unread" />
+       
       </div>
       <div className="app">
         <div className="card-wrapper">
