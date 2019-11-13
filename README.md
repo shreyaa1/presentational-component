@@ -1,3 +1,17 @@
+Preview of the page 
+
+
+<img width="1440" alt="Screenshot 2019-10-19 at 4 05 40 AM" src="https://user-images.githubusercontent.com/22598227/67132305-16feff00-f226-11e9-9fec-00ba494079d8.png">
+
+
+
+technology - javascript.
+Framework - React js.
+store managament - Redux.
+Style - Scss.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
