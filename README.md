@@ -1,7 +1,9 @@
-- A Project using React components.
-- Redux for store creation.
-- SCSS for styling of the components.
-- Responsive
+A Project using React components and technoloies used -
+
+- Technology - javascript.
+- Framework - React js.
+- store managament - Redux.
+- Style - Scss.
 
 Preview of the page 
 
@@ -10,10 +12,7 @@ Preview of the page
 
 
 
-technology - javascript.
-Framework - React js.
-store managament - Redux.
-Style - Scss.
+
 
 
 
