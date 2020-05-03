@@ -4,7 +4,7 @@ A Project using React components and technoloies used -
 - Framework - React js.
 - store managament - Redux.
 - Style - Scss.
-- hosted - https://shreyaa1.github.io/hackstrap-component/ 
+
 
 Preview of the page 
 
