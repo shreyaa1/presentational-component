@@ -1,3 +1,6 @@
+Basic react project using Redux for store creation and SCSS for styling of the components
+
+
 Preview of the page 
 
 
